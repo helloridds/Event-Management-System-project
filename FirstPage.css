@@ -1,0 +1,94 @@
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+    background:white;
+}
+
+.title h2{
+    font-size:30px;    
+}
+
+.title h3{
+    font-size:20px;
+}
+
+nav{
+    align-items: end;
+    display: flex;
+    gap:40px;
+}
+nav a{
+    text-decoration:none;
+    color:black;
+    font-size:16px;
+}
+
+nav a:hover{
+    color:purple;
+    border-bottom:2px solid purple;
+    padding-bottom:5px;
+}
+.heading{
+    text-align: center;
+}
+.event-info{
+    margin-top: 0;
+}
+.event{
+    display: flex;
+    align-items: flex-start;   
+    gap: 25px;
+}
+.btn{
+    padding: 12px 28px;      
+    font-size: 18px;
+    border: 2px solid purple;
+    border-radius: 8px;
+    background-color: white;
+    color:purple;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.btn:hover{
+    background-color: purple;
+    color: white;
+}
+
+.section1{
+    background-image:url(https://media.news.de/images/857756022/images/ea/96/ed6db62c06a995e3bbd1f5b69c62/nopic/no_pic/1200/675/1/1/-/4/1024/576/-/-/veranstaltungstipps-die-events-ihrer-stadt_857756022_1200x675_79bf1a6ef4acdac161040ae5f28076d0.jpg);
+    background-repeat:no-repeat;
+    background-size:cover ;
+    background-position:center ;
+    height:200px;
+    padding: 80px;
+    border:1px solid black;
+}   
+.div1{
+    text-align: center;
+    font-size:large;
+    color:black;
+}
+.btn1{
+    padding: 12px 28px;      
+    font-size: 16px;
+    border: 2px solid purple;
+    border-radius: 6px;
+    background-color: white;
+    color:purple;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.btn1:hover{
+    background-color: purple;
+    color: white;
+}
+h1{
+    font-weight:1000;
+}
+hr{
+    width:50px;
+    
+}
